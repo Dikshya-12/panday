@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-left: 70px;
+    transition: all 0.4s ease;
+  }
+  
+  .Pic {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .Photo {
+    margin-top: 30px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  
+  h1 {
+    color: rgb(26, 226, 26);
+  }
+  
+  h2 {
+    color: rgb(115, 116, 117);
+  }
+  
+  .Introduction {
+    padding-left: 70px;
+    line-height: 1.8;
+  }
+  
+  p {
+    line-height: 1.9;
+  }
+  
+  .link {
+    color: rgba(152, 153, 153, 0.879);
+  }
+  
+  .link:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  button {
+    background-color: blue;
+    border: none;
+    color: black;
+    margin: 10px auto;
+    display: block;
+    height: 40px;
+    width: 140px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: skyblue;
+  }
+  
